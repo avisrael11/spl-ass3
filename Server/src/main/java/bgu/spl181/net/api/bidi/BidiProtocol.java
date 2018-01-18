@@ -25,16 +25,16 @@ public class BidiProtocol implements BidiMessagingProtocol<String> {
         String msg          = "";
         String dataholder   = "";
 
-        if (message.length() >= 8 && message.substring(0, 8).equals("REGISTER")) {
+        if (message.length() >= 8 && message.substring(0, 8).toLowerCase().equals("register")) {
             msg         = "REGISTER";
             dataholder  = message.substring(9);
-        } else if (message.length() >= 5 && message.substring(0, 5).equals("LOGIN")) {
+        } else if (message.length() >= 5 && message.substring(0, 5).toLowerCase().equals("login")) {
             msg         = "LOGIN";
             dataholder  = message.substring(6);
-        } else if (message.length() >= 7  && message.substring(0, 7).equals("REQUEST")) {
+        } else if (message.length() >= 7  && message.substring(0, 7).toLowerCase().equals("request")) {
             msg         = "REQUEST";
             dataholder  = message;
-        } else if (message.length() >= 7 && message.substring(0, 7).equals("SIGNOUT")) {
+        } else if (message.length() >= 7 && message.substring(0, 7).toLowerCase().equals("signout")) {
             msg         = "SIGNOUT";
             dataholder  = message.substring(7);
         }

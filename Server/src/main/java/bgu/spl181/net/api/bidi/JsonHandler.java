@@ -12,7 +12,7 @@ public class JsonHandler {
     public static String moviePath = "Database/Movies.json";
     public static BufferedReader buff = null;
     public static ArrayList<LinkedTreeMap> jsonUser = null;
-    public static ArrayList<LinkedTreeMap> jsonMovie = null;
+    public static ArrayList<LinkedTreeMap> jsonMovie = new ArrayList<>();
     private static LinkedTreeMap<String, ArrayList> usersMap = null;
     private static LinkedTreeMap<String, ArrayList> moviesMap = null;
 

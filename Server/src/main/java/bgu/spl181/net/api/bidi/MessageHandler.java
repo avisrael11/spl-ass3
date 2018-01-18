@@ -38,7 +38,7 @@ public class MessageHandler {
         Request r = new Request(data,message,name);
         if(r.call != null)
             r.run();
-        else r.answer = "ERROR 404 ileagel request";
+        else r.answer = "ERROR unknown request";
         return r;
     }
 
