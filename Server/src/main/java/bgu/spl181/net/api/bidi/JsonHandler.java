@@ -158,7 +158,6 @@ public class JsonHandler {
 
 
     public synchronized static String getUser(String username,String key) {
-    System.out.println("json: get user");
         ReadFromJson();
         for (LinkedTreeMap<String , String> L : jsonUser){
             if (((String)L.get("username")).compareTo(username) == 0)

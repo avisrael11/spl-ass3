@@ -275,10 +275,12 @@ public class Request {
         if(data.length < 2)
             return ans;
         else if(data[1].compareTo("balance") == 0){//balance assume user name is one word
-            if(data[2].compareTo("info") == 0 && data.length == 3)
+            if(data.length == 3 && data[2].compareTo("info") == 0)
                 ans =  data[1] +" "+data[2];//balance info
             else if( data.length == 4 && data[2].compareTo("add")== 0  && data[3].matches("\\d+"))
                 ans =  data[1]+" " + data[2];
+            else if(data.length == 3 && data[2].compareTo("add")== 0)
+                ans = data[1]+" " + data[2];
         }
         else if (data[1].compareTo("info") == 0 ){
             ans =  data[1];
