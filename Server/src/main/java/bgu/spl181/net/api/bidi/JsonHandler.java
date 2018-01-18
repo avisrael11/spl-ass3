@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class JsonHandler {
     public static Gson gson = new Gson();
-    public static String userPath = "Database/Clients.json";
+    public static String userPath = "Database/Users.json";
     public static String moviePath = "Database/Movies.json";
     public static BufferedReader buff = null;
     public static ArrayList<LinkedTreeMap> jsonUser = null;

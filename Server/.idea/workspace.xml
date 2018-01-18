@@ -12,21 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JsonHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JsonHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl181/net/api/bidi/JsonHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+            <state relative-caret-position="126">
+              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EchoClient.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EchoClient.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Client/src/EchoClient.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="490">
+              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -74,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/bgu/spl181/net/api/bidi/MessageHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/bgu/spl181/net/api/bidi/BidiProtocol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bgu/spl181/net/api/bidi/JsonHandler.java" />
         <option value="$PROJECT_DIR$/../Client/src/EchoClient.cpp" />
+        <option value="$PROJECT_DIR$/src/main/java/bgu/spl181/net/api/bidi/JsonHandler.java" />
       </list>
     </option>
   </component>
@@ -280,12 +280,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516277486539</updated>
-      <workItem from="1516277488074" duration="1493000" />
+      <workItem from="1516277488074" duration="2174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1493000" />
+    <option name="totallyTimeSpent" value="2174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -354,18 +354,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl181/net/api/bidi/JsonHandler.java">
+    <entry file="file://$PROJECT_DIR$/../Client/src/EchoClient.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+        <state relative-caret-position="490">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Client/src/EchoClient.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl181/net/api/bidi/JsonHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="126">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>

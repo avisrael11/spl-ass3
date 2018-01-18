@@ -37,7 +37,6 @@ void readInput(const std::atomic<bool> &isLoggedIn, ConnectionHandler &connectio
 
         std::cin.getline(buf, bufsize);
         std::__cxx11::string line(buf);
-        int len = line.length();
 
         if (!connectionHandler.sendLine(line)) {
             return;
