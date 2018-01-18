@@ -55,7 +55,7 @@ public class Request {
                         }
                         answer = temp;
                     } else {
-                        String temp = "";
+                        String temp = "ACK info";
                         ArrayList<String> movies = JsonHandler.getAllMovies();
                         for(String word : movies){
                             temp = temp + " " + "\"" +word + "\"";
