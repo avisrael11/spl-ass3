@@ -1,6 +1,8 @@
 #include "../include/connectionHandler.h"
 #include "../include/Task.h"
 
+#include <algorithm>
+
 void readInput(const std::atomic<bool> &isLoggedIn, ConnectionHandler &connectionHandler);
 
 /**
@@ -41,7 +43,8 @@ void readInput(const std::atomic<bool> &isLoggedIn, ConnectionHandler &connectio
             return;
         }
 
-        if(isLoggedIn.load()&& line == "SIGNOUT")
+        std::transform(line.begin(), line.end(), line.begin(), ::tolower);
+        if(isLoggedIn.load()&& line == "signout")
             return;
     }
 }
